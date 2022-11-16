@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    padding:10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color:seashell;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+/* NAV */
+nav{
+    height:69px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid seashell;
+}
+
+.Logo img{
+    max-height:100%;
+}
+
+.Menu {
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Menu a {
+    color:white;
+}
+
+/* HEADER */
+header {
+    height:700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1w23q3w*_ga*MTMxNzY3MzM2MC4xNjYwODkxNTUx*_ga_3LRZM6TM9L*MTY2NzQ2NTQxNC41LjEuMTY2NzQ2NjkzMi41OC4wLjA.");
+    display: flex;
+    align-items: center;
+}
+
+header div{
+    width:100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+/* SECTION 1 */
+.TeaOfTheMonth{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.Products{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.Products figure{
+    text-align: center;
+}
+
+.Products img{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+}
+
+/* SECTION 2 */
+.Locations{
+    height:500px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*3wjub2*_ga*MTY4Mjc0NzQ2Ny4xNjY1NDU0MzAw*_ga_3LRZM6TM9L*MTY2NzcxMDU5OS4yMC4xLjE2Njc3MTA3NjMuNTguMC4w");
+}
+
+.Locations h2{
+    padding:50px 50px 15px 50px;
+}
+
+.Addresses{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.Address{
+    width:300px;
+    background-color: black;
+    line-height: 1.6;
+    margin: 0px 20px ;
+}
+
+/* Footer */
